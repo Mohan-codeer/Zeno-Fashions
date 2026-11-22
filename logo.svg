@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" role="img" aria-label="Zeno Fasions">
+  <style>
+    .ink { fill: none; stroke: #14120f; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+    .word { fill: #14120f; font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .sub { fill: #a8793a; font-family: 'Inter', system-ui, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .ink { stroke: #f3efe8; }
+      .word { fill: #f3efe8; }
+      .sub { fill: #d4a762; }
+    }
+  </style>
+  <!-- Mark: a hanger whose bar and base form the letter Z -->
+  <g transform="translate(4 8) scale(1)">
+    <path class="ink" d="M24 14 V11 a3.5 3.5 0 1 0 -3.5 -3.5"/>
+    <path class="ink" d="M24 14 L8 28 M24 14 L40 28"/>
+    <path class="ink" d="M8 28 H40 L8 44 H40"/>
+  </g>
+  <text class="word" x="64" y="40" font-size="40" font-weight="600" letter-spacing="3">ZENO</text>
+  <text class="sub" x="66" y="56" font-size="9.5" font-weight="500" letter-spacing="7.5">FASIONS</text>
+</svg>
